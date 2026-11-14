@@ -2,7 +2,7 @@
 
 For founders and developers who build with a coding agent: start every page from your brief and ship it checked.
 
-- 739 maintained design guides for websites, apps and PWAs, delivered to the agent you already use.
+- 738 maintained design guides for websites, apps and PWAs, delivered to the agent you already use.
 - Project profiles, so every session starts from your brief and the decisions you approved.
 - Design-rule checks your agent runs before it ships: contrast, targets, measure, motion, speed.
 - Motif is a standard remote MCP server.
