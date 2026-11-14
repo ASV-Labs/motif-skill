@@ -19,7 +19,7 @@ https://mcp.asv-labs.com/mcp
 | --- | --- |
 | Claude Code | `claude mcp add --transport http --scope user motif https://mcp.asv-labs.com/mcp`, then run `/mcp`, pick motif and choose Authenticate. |
 | Codex CLI | `codex mcp add motif --url https://mcp.asv-labs.com/mcp && codex mcp login motif` |
-| Gemini CLI | `gemini mcp add --transport http motif https://mcp.asv-labs.com/mcp` |
+| Gemini CLI | `gemini mcp add --transport http motif https://mcp.asv-labs.com/mcp`, then run `/mcp auth motif`. |
 | Cursor | Add `{"mcpServers": {"motif": {"url": "https://mcp.asv-labs.com/mcp"}}}` to `~/.cursor/mcp.json`, then select Connect under Settings → MCP and sign in. |
 | Other clients | Add a remote (streamable HTTP) MCP server with the address above and sign in when asked. |
 
