@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.asv-labs/motif",
+  "title": "Motif by ASV Labs",
+  "description": "A maintained design library your coding agent can call.",
+  "version": "1.0.0",
+  "websiteUrl": "https://motif.asv-labs.com/",
+  "icons": [
+    {
+      "src": "https://motif.asv-labs.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.asv-labs.com/mcp"
+    }
+  ]
+}
