@@ -23,7 +23,7 @@ https://mcp.asv-labs.com/mcp
 | Cursor | Add `{"mcpServers": {"motif": {"url": "https://mcp.asv-labs.com/mcp"}}}` to `~/.cursor/mcp.json`, then select Connect under Settings → MCP and sign in. |
 | Other clients | Add a remote (streamable HTTP) MCP server with the address above and sign in when asked. |
 
-Signing in opens a browser page. A new account starts a 30-day free trial with no card; setup steps for every client are at https://motif.asv-labs.com/?utm_source=skills-sh&utm_medium=skill&utm_campaign=motif-202611-skill. Never ask the user for a password or token in chat, and never write a token into a file.
+Signing in opens a browser page. A new account starts with a free trial and no card; setup steps for every client are at https://motif.asv-labs.com/?utm_source=skills-sh&utm_medium=skill&utm_campaign=motif-202611-skill. Never ask the user for a password or token in chat, and never write a token into a file.
 
 If the user does not want to connect now, go to step 2 and keep the brief for later.
 
@@ -45,8 +45,20 @@ When Motif is connected, follow the order in the server's own instructions. In s
 
 Some calls count against the plan's allowance. If the server answers that a plan or add-on is required, pass its message and link to the user. Never try to pay, subscribe or work around it.
 
-## 4. Before you say it is done
+## 4. Honest pages, not annotated pages
+
+Keep the page truthful, and keep your working notes off it. The visitor is a customer of the business, not a reviewer of your build.
+
+- Never invent customers, numbers, reviews, logos, certifications, people or results. If the brief doesn't give a fact, leave it out.
+- Don't write about the page, the build or the evidence on the page itself. No "Source:" labels or links, no "this page does not…", "not stated", "not audited", "sample", "fictional" or "illustration made for this page" notes, no record or log blocks, and no list of what is unknown. Those go in your build notes (BUILD-LOG.md or the design note) and in your report to the user.
+- Don't add facts the brief doesn't give, such as a time zone, an address or opening days.
+- Write like the business would: plain, warm where the business is warm, and specific with the facts you do have.
+- Use honest imagery rather than none. Use real product screens, the place, the work, the tools or illustration. Don't present a generated person as a named real person (the owner, the editor, the team). A page with no pictures at all must still feel like that business.
+- A form that can't send yet still looks like the real form on the page. Tell the user in your report what has to be connected; don't put that on the page.
+
+## 5. Before you say it is done
 
 - The page states who it is for, what they get and what to do next, in that order, on the first screen.
 - `check_design_contract` was run on the final version, and the result is reported to the user, failures included.
 - Any decision you proposed is listed so the user can approve or reject it.
+- The page carries no notes about itself (sources, caveats, "not stated", "sample"); they are in your build notes and your report instead.

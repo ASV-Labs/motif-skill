@@ -22,8 +22,8 @@ Fill this in with the person you are building for. One or two lines per answer. 
 
 ## Proof
 
-- Facts we can state and show (numbers, customers, results), with where each comes from:
-- Claims we must not make:
+- Facts we can state and show (numbers, customers, results), with where each comes from (for our records, not for the page):
+- Claims we must not make (leave them out of the page; don't announce that they're missing):
 
 ## Look and voice
 
