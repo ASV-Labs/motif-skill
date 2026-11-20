@@ -8,7 +8,7 @@ For founders and developers who build with a coding agent: start every page from
 - Motif is a standard remote MCP server.
 - You can see and revoke every connection.
 
-30-day free trial, no card required, then Creator $9/mo.
+7-day free trial, no card required, then Creator $24/mo, with hero kits included.
 
 ## Install the skill
 
