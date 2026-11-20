@@ -53,12 +53,20 @@ Keep the page truthful, and keep your working notes off it. The visitor is a cus
 - Don't write about the page, the build or the evidence on the page itself. No "Source:" labels or links, no "this page does not…", "not stated", "not audited", "sample", "fictional" or "illustration made for this page" notes, no record or log blocks, and no list of what is unknown. Those go in your build notes (BUILD-LOG.md or the design note) and in your report to the user.
 - Don't add facts the brief doesn't give, such as a time zone, an address or opening days.
 - Write like the business would: plain, warm where the business is warm, and specific with the facts you do have.
-- Use honest imagery rather than none. Use real product screens, the place, the work, the tools or illustration. Don't present a generated person as a named real person (the owner, the editor, the team). A page with no pictures at all must still feel like that business.
-- A form that can't send yet still looks like the real form on the page. Tell the user in your report what has to be connected; don't put that on the page.
+- Use honest imagery rather than none, and show what the visitor came for: the dog being groomed, the van in a driveway, the dish, the product screen in use. Real product screens, the place, the work, the tools or illustration all work. Don't present a generated person as a named real person (the owner, the editor, the team). A page with no pictures at all must still feel like that business.
 
-## 5. Before you say it is done
+## 5. Actions that work
+
+Every button and form must do something real with what the brief gives.
+
+- A phone number becomes `tel:` (call) and `sms:` (text) links.
+- If the brief gives no backend for a form, have the form open the visitor's own text or email app with their answers already filled in (`sms:` or `mailto:` with a body), so the request still reaches the business. Never ship a button that only copies text or does nothing. Tell the user in your report what a real form backend would add; don't put that on the page.
+- When the page's main action is a call or a booking, keep it one tap away on a phone at every scroll position: a pinned bar or a header button.
+
+## 6. Before you say it is done
 
 - The page states who it is for, what they get and what to do next, in that order, on the first screen.
 - `check_design_contract` was run on the final version, and the result is reported to the user, failures included.
 - Any decision you proposed is listed so the user can approve or reject it.
 - The page carries no notes about itself (sources, caveats, "not stated", "sample"); they are in your build notes and your report instead.
+- Every button and form does something real on a phone, and the main action stays one tap away while scrolling.
